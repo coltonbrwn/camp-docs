@@ -2,13 +2,17 @@ var voronoi =  new Voronoi();
 var sites = generateBeeHivePoints(view.size / 200, true);
 var bbox, diagram;
 var oldSize = view.size;
-var spotColor = new Color('green');
 var mousePos = view.center;
 var selected = false;
 var selectedVoroni;
 var audioData = [];
+var voronoiStates = {};
+
+var raster = new Raster('/background.jpg');
+raster.visible = false;
 
 onResize();
+
 
 $.get('/data.json', function(data) {
 	audioData = data.map( function(item) {
@@ -22,7 +26,7 @@ $.get('/data.json', function(data) {
 })
 
 function onMouseDown(event) {
-	var point = event.point;
+		var point = event.point;
 	var closestPointDistance = 100000000;
 	var closestPointId = null;
 	sites.forEach(function(site) {
@@ -33,9 +37,12 @@ function onMouseDown(event) {
 		}
 	})
 	selectedVoroni = closestPointId;
-	renderDiagram();
 
-	var audio = audioData.pop().audio.play()
+	if (!voronoiStates[selectedVoroni]) {
+		voronoiStates[selectedVoroni] = true;
+		renderDiagram();
+		var audio = audioData.pop().audio.play()
+	}
 }
 
 function renderDiagram() {
@@ -53,9 +60,9 @@ function renderDiagram() {
 						v = halfedges[j].getEndpoint();
 						points.push(new Point(v));
 					}
-					var color = (selectedVoroni === sites[i].voronoiId)
-						? new Color('yellow')
-						: new Color('green');
+					var color = voronoiStates[sites[i].voronoiId]
+						? new Color('yellow') - (Math.random() / 5)
+						: new Color('green') + (Math.random() / 5)
 					createPath(points, sites[i], color);
 				}
 			}

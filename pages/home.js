@@ -24,9 +24,6 @@ export default class Home extends React.Component {
             <iframe src="/canvas/index.html" width="100vw" height="100vh"/>
           ) : ''
         }
-        <div>
-          <p>Happy birthday emily!</p>
-        </div>
       </Layout>
     )
   }
