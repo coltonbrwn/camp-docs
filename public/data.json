@@ -1,39 +1,39 @@
 [
   {
-    from: "Isaac Blankensmith",
-    file: "/audio/isaac.m4a"
+    "from": "Isaac Blankensmith",
+    "file": "/audio/isaac.m4a"
   }, {
-    from: "Rosalie Ryan",
-    file: "/audio/rosalie.m4a"
+    "from": "Rosalie Ryan",
+    "file": "/audio/rosalie.m4a"
   }, {
-    from: "Andrew Badr",
-    file: "/audio/rosalie.m4a"
+    "from": "Andrew Badr",
+    "file": "/audio/rosalie.m4a"
   }, {
-    from: "Dana Kraushar",
-    file: "/audio/dana.aac"
+    "from": "Dana Kraushar",
+    "file": "/audio/dana.aac"
   }, {
-    from: "Aneesh Chaganty",
-    file: "/audio/aneesh.m4a"
+    "from": "Aneesh Chaganty",
+    "file": "/audio/aneesh.m4a"
   }, {
-    from: "Ben and Erin",
-    file: "/audio/ben-erin.m4a"
+    "from": "Ben and Erin",
+    "file": "/audio/ben-erin.m4a"
   }, {
-    from: "Eria Morse",
-    file: "/audio/erica.m4a"
+    "from": "Eria Morse",
+    "file": "/audio/erica.m4a"
   }, {
-    from: "Brice Lockard",
-    file: "/audio/brice.m4a"
+    "from": "Brice Lockard",
+    "file": "/audio/brice.m4a"
   }, {
-    from: "Felicity Sparrow",
-    file: "/audio/felicity.m4a"
+    "from": "Felicity Sparrow",
+    "file": "/audio/felicity.m4a"
   }, {
-    from: "Kevin Lynch",
-    file: "/audio/kevin.m4a"
+    "from": "Kevin Lynch",
+    "file": "/audio/kevin.m4a"
   }, {
-    from: "Torrey and Eli",
-    file: "/audio/torrey-eli.m4a"
+    "from": "Torrey and Eli",
+    "file": "/audio/torrey-eli.m4a"
   }, {
-    from: "Antares and Sophie",
-    file: "/audio/antares-soph.m4a"
+    "from": "Antares and Sophie",
+    "file": "/audio/antares-soph.m4a"
   }
 ]
