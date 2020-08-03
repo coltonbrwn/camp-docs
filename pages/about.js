@@ -20,7 +20,7 @@ export default class Home extends React.Component {
     return (
       <Layout>
         <div className="about-page">
-          <h1>With love from:</h1>
+          <h1>with love from:</h1>
           <br/>
           {
             data.map( item => (
