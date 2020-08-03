@@ -32,5 +32,8 @@
   }, {
     from: "Torrey and Eli",
     file: "/audio/torrey-eli.m4a"
+  }, {
+    from: "Antares and Sophie",
+    file: "/audio/antares-soph.m4a"
   }
 ]
