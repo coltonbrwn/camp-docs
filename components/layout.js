@@ -22,7 +22,7 @@ export default class Layout extends React.Component {
     const social_img_url = '';
     const description = 'Happy Birthday Emily!'
     const url = "https://www.birthdaywinepicnic.net"
-    const title = "Birthday Wine Picninc 6"
+    const title = "Birthday Wine Picnic 6"
     const themeColor = name => get(COLORS, [this.props.theme, name]);
 
     return (

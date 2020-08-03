@@ -7,7 +7,7 @@
     "file": "/audio/rosalie.m4a"
   }, {
     "from": "Andrew Badr",
-    "file": "/audio/rosalie.m4a"
+    "file": "/audio/andrew.m4a"
   }, {
     "from": "Dana Kraushar",
     "file": "/audio/dana.aac"
@@ -35,5 +35,8 @@
   }, {
     "from": "Antares and Sophie",
     "file": "/audio/antares-soph.m4a"
+  }, {
+    "from": "Colton and Monica",
+    "file": "/audio/moco.m4a"
   }
 ]
