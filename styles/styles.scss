@@ -86,4 +86,16 @@ iframe {
   }
 }
 
+.nav-link {
+  position: fixed;
+  font-size: 2rem;
+  bottom: 1em;
+  left: 1em;
+  display: inline-block;
+}
+.about-page {
+  text-align: center;
+  padding: 1em 0;
+}
+
 @import './typography';

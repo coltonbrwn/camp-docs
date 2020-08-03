@@ -24,6 +24,9 @@ export default class Home extends React.Component {
             <iframe src="/canvas/index.html" width="100vw" height="100vh"/>
           ) : ''
         }
+        <div className="nav-link">
+          <a href="/about">?</a>
+        </div>
       </Layout>
     )
   }
