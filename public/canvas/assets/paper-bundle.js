@@ -20,9 +20,7 @@ $.get('/data.json', function(data) {
 			from: item.from,
 			audio: new Audio(item.file)
 		}
-	}).sort(function() {
-	  return .5 - Math.random();
-	});
+	})
 })
 
 function onMouseDown(event) {
@@ -41,7 +39,9 @@ function onMouseDown(event) {
 	if (!voronoiStates[selectedVoroni]) {
 		voronoiStates[selectedVoroni] = true;
 		renderDiagram();
-		var audio = audioData.pop().audio.play()
+		var randIndex = Math.floor(Math.random() * audioData.length);
+		var randItems = audioData.splice(randIndex, 1);
+		var audio = randItems[0].audio.play()
 	}
 }
 
