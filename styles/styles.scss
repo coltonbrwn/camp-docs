@@ -89,13 +89,18 @@ iframe {
 .nav-link {
   position: fixed;
   font-size: 2rem;
-  bottom: 1em;
-  left: 1em;
+  top: 1em;
+  right: 1em;
   display: inline-block;
 }
 .about-page {
   text-align: center;
   padding: 1em 0;
+}
+
+.home-container {
+  width: 30em;
+  margin: 10em auto;
 }
 
 @import './typography';

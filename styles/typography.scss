@@ -21,10 +21,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   margin: 0;
   font-size: 4rem;
   font-family: helvetica, sans-serif;
-  font-weight: 600;
   letter-spacing: -0.1rem;
   line-height: 1em;
-  color: #2db52d;
 }
 h5 { //full-space
   margin: 0;
@@ -36,6 +34,9 @@ h6 { //full-space
   margin: 0;
   padding: 0;
   height: 1em;
+}
+p {
+  margin-bottom: 1em;
 }
 a {
   color: inherit;
